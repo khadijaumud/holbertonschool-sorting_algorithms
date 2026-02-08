@@ -24,8 +24,7 @@ void selection_sort(int *array, size_t size)
 				min_idx = j;
 		}
 
-		
-	    if (min_idx != i)
+		if (min_idx != i)
 		{
 			temp = array[i];
 			array[i] = array[min_idx];
